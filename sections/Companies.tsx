@@ -15,10 +15,10 @@ interface Props {
 
 function Companies({ title, images }: Props) {
     return (
-        <div>
+        <div className="my-[40px]">
             <div className="container">
-                <span className="text-base-200 text-base">{title}</span>
-                <ul className="flex flex-col gap-8 mt-12">
+                <span className="text-base-200 text-base md:text-[20px] text-center w-full font-poppins block">{title}</span>
+                <ul className="flex flex-col md:flex-row gap-8 mt-12 justify-center items-center">
                     {images?.map((item) => (
                         <a href={item.link}><li>
                             <Image

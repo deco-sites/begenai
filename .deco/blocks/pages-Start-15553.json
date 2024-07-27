@@ -37,9 +37,20 @@
       "buttonText": "Discover"
     },
     {
-      "__resolveType": "site/sections/ItWorks.tsx",
-      "name": "<p>It Works!</p>",
-      "count": 1
+      "__resolveType": "site/sections/Companies.tsx",
+      "title": "Big companies trust us",
+      "images": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/f16c146f-9812-4e3b-8942-0d4ec4800161",
+          "width": 48,
+          "height": 48
+        },
+        {
+          "width": 141,
+          "height": 48,
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/09a5cfc5-75fc-43e3-bf4b-0bd2f2ac8b55"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/ContactUs.tsx",
