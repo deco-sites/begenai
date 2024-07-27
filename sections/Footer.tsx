@@ -2,7 +2,6 @@ import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 
 interface Props {
-  href?: string;
   image?: ImageWidget;
   alt?: string;
   width?: number;
@@ -10,32 +9,24 @@ interface Props {
   text?: string;
 }
 
-function Footer({
-  image =
-    "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4959/d7aa9290-074f-417c-99c3-5b0587c8c2ee",
-  href = "https://deco.cx/",
-  text = "Made with",
-  alt = "Made with deco.cx",
-  height = 20,
-  width = 50,
+function Footer({ image, alt, width, height, text
+
 }: Props) {
   return (
-    <div class="py-8 lg:px-0 px-6 fixed bottom-0 w-full mx-auto">
-      <a
-        href={href}
-        class="flex flex-row gap-1 items-center justify-center text-xs"
-        target="_blank"
-      >
-        {text && <p>{text}</p>}
-        {image && (
-          <Image
-            src={image || ""}
-            alt={alt || ""}
-            height={height || 20}
-            width={width || 50}
-          />
-        )}
-      </a>
+    <div className="bg-white pt-[56px] pb-[40px] md:pt-[64px] md:pb-[48px]">
+      <div className="container flex justify-between items-center p-4 gap-2 sm:gap-0 sm:p-0">
+        <a href="/">
+          {image && (
+            <Image
+              src={image || ""}
+              alt={alt || ""}
+              height={height || 40}
+              width={width || 75}
+            />
+          )}
+        </a>
+        <span className="text-[#667085] text-sm md:text-base text-end">{text}</span>
+      </div>
     </div>
   );
 }

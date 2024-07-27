@@ -8,7 +8,10 @@
       "count": 1
     },
     {
-      "__resolveType": "Footer"
+      "__resolveType": "site/sections/Footer.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/7abf3190-1e27-4013-b263-1224f1905d2f",
+      "alt": "Logo da página",
+      "text": "© 2024 Begen.ai. Todos os direitos reservados."
     }
   ],
   "__resolveType": "website/pages/Page.tsx"
