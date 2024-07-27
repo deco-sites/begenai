@@ -18,7 +18,7 @@ function Header({ image, alt, width, height, menuLinks, disableInternationalizat
 
 }: Props) {
     return (
-        <div className="bg-white py-3 px-4 sm:px-0">
+        <div className="bg-white py-3 px-4 sm:px-0 md:fixed md:top-0 z-10 w-full">
             <div className="container flex justify-between items-center gap-2 sm:gap-0">
                 <a href="/">
                     {image && (

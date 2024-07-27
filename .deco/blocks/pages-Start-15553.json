@@ -32,6 +32,11 @@
       ]
     },
     {
+      "__resolveType": "site/sections/Discover.tsx",
+      "text": "A plataforma SaaS tudo-em-um que empodera empresas para utilizar totalmente o potencial da IA Gerativa.",
+      "buttonText": "Discover"
+    },
+    {
       "__resolveType": "site/sections/ItWorks.tsx",
       "name": "<p>It Works!</p>",
       "count": 1
