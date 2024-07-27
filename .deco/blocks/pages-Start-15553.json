@@ -37,6 +37,12 @@
       "count": 1
     },
     {
+      "__resolveType": "site/sections/ContactUs.tsx",
+      "title": "Lorem Ipsum dolor sit amet",
+      "subtitle": "Contate-nos hoje e descubra como podemos ajudá-lo a entrar na era da IA Gerativa.",
+      "buttonText": "Fale com nossos especialistas"
+    },
+    {
       "__resolveType": "site/sections/Footer.tsx",
       "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/7abf3190-1e27-4013-b263-1224f1905d2f",
       "alt": "Logo da página",

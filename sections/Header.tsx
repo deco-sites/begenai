@@ -11,7 +11,7 @@ interface Props {
         highlight?: boolean;
         text?: string;
     }[]
-    disableInternationalization: boolean;
+    disableInternationalization?: boolean;
 }
 
 function Header({ image, alt, width, height, menuLinks, disableInternationalization
