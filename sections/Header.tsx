@@ -1,7 +1,7 @@
 import { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx"
-
+import { ChooseLang } from "site/islands/ChooseLang.tsx";
 interface Props {
     image?: ImageWidget;
     alt?: string;
@@ -10,6 +10,7 @@ interface Props {
     menuLinks?: {
         highlight?: boolean;
         text?: string;
+        link?: string;
     }[]
     disableInternationalization?: boolean;
 }
@@ -39,7 +40,7 @@ function Header({ image, alt, width, height, menuLinks, disableInternationalizat
                         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                         <ul className="menu bg-white text-base-content min-h-full w-80 p-4">
                             {menuLinks?.map((menu) => (
-                                <li className={`${menu.highlight ? "bg-primary-content p-2 rounded-lg w-fit text-white" : ''} mb-3`}><a className="p-0">{menu.text}</a></li>
+                                <li className={`${menu.highlight ? "bg-primary-content p-2 rounded-lg w-fit text-white" : ''} mb-3`}><a href={menu.link} className="p-0">{menu.text}</a></li>
                             ))}
                         </ul>
                     </div>
@@ -47,9 +48,9 @@ function Header({ image, alt, width, height, menuLinks, disableInternationalizat
                 <div className="hidden md:block">
                     <ul className="text-[#303030] tex-sm min-h-full flex items-center gap-[49px]">
                         {menuLinks?.map((menu) => (
-                            <li className={`${menu.highlight ? "bg-primary-content p-3 rounded-lg text-white" : ''}`}><a>{menu.text}</a></li>
+                            <li className={`${menu.highlight ? "bg-primary-content p-3 rounded-lg text-white" : ''}`}><a href={menu.link}>{menu.text}</a></li>
                         ))}
-                        {disableInternationalization ? "" : <li className="flex items-center gap-2"><Icon id="Globe" strokeWidth={1} size={20} /><Icon id="ChevronDown" strokeWidth={2} size={12} /></li>}
+                        {disableInternationalization ? "" : <li className="flex items-center gap-2"><ChooseLang /></li>}
                     </ul>
                 </div>
             </div>

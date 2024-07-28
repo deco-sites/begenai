@@ -63,6 +63,38 @@
       }
     },
     {
+      "__resolveType": "site/sections/Benefits.tsx",
+      "title": "VANTAGENS",
+      "subTitle": "Alavanque Seu Negócio com Begen: A Plataforma Definitiva de IA Gerativa",
+      "extraText": "Embora nossa solução técnica seja excelente, nosso sucesso depende da nossa capacidade de oferecer uma experiência excepcional ao cliente. Nossa equipe está dedicada a resolver cada desafio único do cliente e maximizar o valor que ele obtém de Begen",
+      "itemsList": [
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/9bdb6e4f-593f-4959-810d-f938d7f9d43c",
+          "text": "Aumentar produtividade e eficiência: automatizando tarefas repetitivas atualmente realizadas por funcionários, liberando-os para se concentrarem em iniciativas de maior valor."
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/e54a0c06-ecbf-4a6a-95a8-5362232155cf",
+          "text": "Empoderar criatividade e inovação: utilizando modelos LLM pré-treinados diversos, as empresas podem explorar uma ampla gama de possibilidades criativas para geração de conteúdo, design de produtos, campanhas de marketing e mais."
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/6abd2f6d-bcfa-4342-81c9-a885a6f781ee",
+          "text": "Melhorar a tomada de decisões baseada em dados: fornecendo insights acionáveis de análises de dados alimentadas por IA de maneira amigável, permitindo que as empresas façam decisões mais rápidas e confiantes baseadas em informações e tendências em tempo real."
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/d62dbe0a-4100-4c6c-a6d4-ef1ffd6ddffe",
+          "text": "Melhorar a escalabilidade: evitando grandes investimentos iniciais, a plataforma baseada na nuvem permite que os clientes testem soluções de IA Gerativa e cresçam conforme necessário sem limitações de infraestrutura."
+        },
+        {
+          "text": "Simplificar segurança e governança: oferecendo recursos robustos de segurança e controle de acesso granular para garantir a segurança e privacidade dos dados.",
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/57b9f038-a77f-4b9e-8a72-abd1d256033e"
+        },
+        {
+          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/bbede213-49df-4413-aec1-58164f3151a5",
+          "text": "Simplificar a experiência do usuário: empoderando usuários não técnicos a aproveitar a IA Gerativa, com uma plataforma sem código, eliminando a necessidade de desenvolvimento e suporte de TI."
+        }
+      ]
+    },
+    {
       "__resolveType": "site/sections/ContactUs.tsx",
       "title": "Lorem Ipsum dolor sit amet",
       "subtitle": "Contate-nos hoje e descubra como podemos ajudá-lo a entrar na era da IA Gerativa.",
