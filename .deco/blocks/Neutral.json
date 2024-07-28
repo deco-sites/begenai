@@ -45,6 +45,7 @@
   "mode": "light",
   "complementaryColors": {
     "base-200": "#757575",
-    "primary-content": "#F74A33"
+    "primary-content": "#F74A33",
+    "secondary-content": "#DF1A00"
   }
 }

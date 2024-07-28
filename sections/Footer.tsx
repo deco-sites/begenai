@@ -14,7 +14,7 @@ function Footer({ image, alt, width, height, text
 }: Props) {
   return (
     <div className="bg-white pt-[56px] pb-[40px] md:pt-[64px] md:pb-[48px]">
-      <div className="container flex justify-between items-center p-4 gap-2 sm:gap-0 sm:p-0 sm:px-4 md:px-8">
+      <div className="container lg:max-w-[1440px] flex justify-between items-center p-4 gap-2 sm:gap-0 sm:p-0 sm:px-4 md:px-8">
         <a href="/">
           {image && (
             <Image
