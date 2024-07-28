@@ -33,14 +33,13 @@ function Header({ image, alt, width, height, menuLinks, disableInternationalizat
                 <div className="drawer drawer-end w-[unset] md:hidden">
                     <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
                     <div className="drawer-content">
-                        {/* Page content here */}
                         <label htmlFor="my-drawer-4" className=""><Icon id="MobileBars" strokeWidth={1} size={32} /></label>
                     </div>
                     <div className="drawer-side">
                         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
-                        <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
+                        <ul className="menu bg-white text-base-content min-h-full w-80 p-4">
                             {menuLinks?.map((menu) => (
-                                <li className={`${menu.highlight ? "bg-primary-content p-3 rounded-lg" : ''}`}><a>{menu.text}</a></li>
+                                <li className={`${menu.highlight ? "bg-primary-content p-2 rounded-lg w-fit text-white" : ''} mb-3`}><a className="p-0">{menu.text}</a></li>
                             ))}
                         </ul>
                     </div>
