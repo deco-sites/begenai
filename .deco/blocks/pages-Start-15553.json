@@ -1,111 +1,234 @@
 {
   "name": "Home",
   "path": "/",
-  "sections": [
-    {
-      "__resolveType": "site/sections/Header.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/f38e89fa-d3eb-4e87-bdd4-a5d75ba41b8f",
-      "menuLinks": [
-        {
-          "0": "L",
-          "1": "o",
-          "2": "g",
-          "3": "i",
-          "4": "n",
-          "text": "Login"
-        },
-        {
-          "0": "C",
-          "1": "a",
-          "2": "d",
-          "3": "a",
-          "4": "s",
-          "5": "t",
-          "6": "r",
-          "7": "e",
-          "8": "-",
-          "9": "s",
-          "10": "e",
-          "text": "Cadastre-se",
-          "highlight": true
+  "sections": {
+    "__resolveType": "website/flags/multivariate.ts",
+    "variants": [
+      {
+        "value": [
+          {
+            "__resolveType": "site/sections/Header.tsx",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/f38e89fa-d3eb-4e87-bdd4-a5d75ba41b8f",
+            "menuLinks": [
+              {
+                "0": "L",
+                "1": "o",
+                "2": "g",
+                "3": "i",
+                "4": "n",
+                "text": "Sign in"
+              },
+              {
+                "0": "C",
+                "1": "a",
+                "2": "d",
+                "3": "a",
+                "4": "s",
+                "5": "t",
+                "6": "r",
+                "7": "e",
+                "8": "-",
+                "9": "s",
+                "10": "e",
+                "text": "Sign up",
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Discover.tsx",
+            "text": "Begen is the all-in-one SaaS platform empowering companies to fully utilize the potential of Artificial Intelligence.",
+            "buttonText": "Discover"
+          },
+          {
+            "__resolveType": "site/sections/Companies.tsx",
+            "title": "Big companies trust us",
+            "images": [
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/f16c146f-9812-4e3b-8942-0d4ec4800161",
+                "width": 48,
+                "height": 48
+              },
+              {
+                "width": 141,
+                "height": 48,
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/09a5cfc5-75fc-43e3-bf4b-0bd2f2ac8b55"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/AboutUs.tsx",
+            "title": "SOBRE NÓS",
+            "subTitle": "A Begen.ai",
+            "textContent": "<p><span style=\"color: #df1a00\">Nossa missão&nbsp;</span>é expandir o uso empresarial da IA Gerativa, fornecendo uma plataforma confiável, completa e escalável, enquanto organizamos o acesso em um ambiente seguro e controlado.</p><p>As empresas hoje estão presas no paradoxo da IA Gerativa. Enquanto as plataformas de código aberto oferecem flexibilidade, elas carecem de segurança e suporte. Soluções isoladas, por outro lado, restringem as empresas a um único LLM, limitando seu potencial criativo. Begen resolve isso fornecendo uma plataforma segura e abrangente com acesso a diversos modelos LLM pré-treinados.</p><p>Além disso, o acesso não controlado à IA Gerativa representa um risco significativo para as empresas. Pode levar ao uso indevido de dados, saídas tendenciosas e desperdício de recursos.</p><p><span style=\"color: #df1a00\">Nossa visão</span>&nbsp;é tornar-se a plataforma onipresente para a jornada da IA Gerativa no mundo empresarial, oferecendo uma plataforma segura e escalável que simplifica o acesso, fomenta a inovação e acelera a adoção da IA Gerativa por empresas de todos os tamanhos.</p>",
+            "images": {
+              "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5403f87f-b226-43a4-a183-8318d3450c0c",
+              "imageDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5b6a7252-8fc4-434c-a215-407399571b99"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Benefits.tsx",
+            "title": "VANTAGENS",
+            "subTitle": "Alavanque Seu Negócio com Begen: A Plataforma Definitiva de IA Gerativa",
+            "extraText": "Embora nossa solução técnica seja excelente, nosso sucesso depende da nossa capacidade de oferecer uma experiência excepcional ao cliente. Nossa equipe está dedicada a resolver cada desafio único do cliente e maximizar o valor que ele obtém de Begen",
+            "itemsList": [
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/9bdb6e4f-593f-4959-810d-f938d7f9d43c",
+                "text": "Aumentar produtividade e eficiência: automatizando tarefas repetitivas atualmente realizadas por funcionários, liberando-os para se concentrarem em iniciativas de maior valor."
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/e54a0c06-ecbf-4a6a-95a8-5362232155cf",
+                "text": "Empoderar criatividade e inovação: utilizando modelos LLM pré-treinados diversos, as empresas podem explorar uma ampla gama de possibilidades criativas para geração de conteúdo, design de produtos, campanhas de marketing e mais."
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/6abd2f6d-bcfa-4342-81c9-a885a6f781ee",
+                "text": "Melhorar a tomada de decisões baseada em dados: fornecendo insights acionáveis de análises de dados alimentadas por IA de maneira amigável, permitindo que as empresas façam decisões mais rápidas e confiantes baseadas em informações e tendências em tempo real."
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/d62dbe0a-4100-4c6c-a6d4-ef1ffd6ddffe",
+                "text": "Melhorar a escalabilidade: evitando grandes investimentos iniciais, a plataforma baseada na nuvem permite que os clientes testem soluções de IA Gerativa e cresçam conforme necessário sem limitações de infraestrutura."
+              },
+              {
+                "text": "Simplificar segurança e governança: oferecendo recursos robustos de segurança e controle de acesso granular para garantir a segurança e privacidade dos dados.",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/57b9f038-a77f-4b9e-8a72-abd1d256033e"
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/bbede213-49df-4413-aec1-58164f3151a5",
+                "text": "Simplificar a experiência do usuário: empoderando usuários não técnicos a aproveitar a IA Gerativa, com uma plataforma sem código, eliminando a necessidade de desenvolvimento e suporte de TI."
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/ContactUs.tsx",
+            "title": "Lorem Ipsum dolor sit amet",
+            "subtitle": "Contate-nos hoje e descubra como podemos ajudá-lo a entrar na era da IA Gerativa.",
+            "buttonText": "Fale com nossos especialistas"
+          },
+          {
+            "__resolveType": "site/sections/Footer.tsx",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/7abf3190-1e27-4013-b263-1224f1905d2f",
+            "alt": "Logo da página",
+            "text": "© 2024 Begen.ai. Todos os direitos reservados."
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/cookie.ts",
+          "name": "begen-lang",
+          "value": "EN"
         }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/Discover.tsx",
-      "text": "A plataforma SaaS tudo-em-um que empodera empresas para utilizar totalmente o potencial da IA Gerativa.",
-      "buttonText": "Discover"
-    },
-    {
-      "__resolveType": "site/sections/Companies.tsx",
-      "title": "Grandes empresas confiam em nós",
-      "images": [
-        {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/f16c146f-9812-4e3b-8942-0d4ec4800161",
-          "width": 48,
-          "height": 48
-        },
-        {
-          "width": 141,
-          "height": 48,
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/09a5cfc5-75fc-43e3-bf4b-0bd2f2ac8b55"
+      },
+      {
+        "value": [
+          {
+            "__resolveType": "site/sections/Header.tsx",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/f38e89fa-d3eb-4e87-bdd4-a5d75ba41b8f",
+            "menuLinks": [
+              {
+                "0": "L",
+                "1": "o",
+                "2": "g",
+                "3": "i",
+                "4": "n",
+                "text": "Login"
+              },
+              {
+                "0": "C",
+                "1": "a",
+                "2": "d",
+                "3": "a",
+                "4": "s",
+                "5": "t",
+                "6": "r",
+                "7": "e",
+                "8": "-",
+                "9": "s",
+                "10": "e",
+                "text": "Cadastre-se",
+                "highlight": true
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/Discover.tsx",
+            "text": "A plataforma SaaS tudo-em-um que empodera empresas para utilizar totalmente o potencial da IA Gerativa.",
+            "buttonText": "Discover"
+          },
+          {
+            "__resolveType": "site/sections/Companies.tsx",
+            "title": "Grandes empresas confiam em nós",
+            "images": [
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/f16c146f-9812-4e3b-8942-0d4ec4800161",
+                "width": 48,
+                "height": 48
+              },
+              {
+                "width": 141,
+                "height": 48,
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/09a5cfc5-75fc-43e3-bf4b-0bd2f2ac8b55"
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/AboutUs.tsx",
+            "title": "SOBRE NÓS",
+            "subTitle": "A Begen.ai",
+            "textContent": "<p><span style=\"color: #df1a00\">Nossa missão&nbsp;</span>é expandir o uso empresarial da IA Gerativa, fornecendo uma plataforma confiável, completa e escalável, enquanto organizamos o acesso em um ambiente seguro e controlado.</p><p>As empresas hoje estão presas no paradoxo da IA Gerativa. Enquanto as plataformas de código aberto oferecem flexibilidade, elas carecem de segurança e suporte. Soluções isoladas, por outro lado, restringem as empresas a um único LLM, limitando seu potencial criativo. Begen resolve isso fornecendo uma plataforma segura e abrangente com acesso a diversos modelos LLM pré-treinados.</p><p>Além disso, o acesso não controlado à IA Gerativa representa um risco significativo para as empresas. Pode levar ao uso indevido de dados, saídas tendenciosas e desperdício de recursos.</p><p><span style=\"color: #df1a00\">Nossa visão</span>&nbsp;é tornar-se a plataforma onipresente para a jornada da IA Gerativa no mundo empresarial, oferecendo uma plataforma segura e escalável que simplifica o acesso, fomenta a inovação e acelera a adoção da IA Gerativa por empresas de todos os tamanhos.</p>",
+            "images": {
+              "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5403f87f-b226-43a4-a183-8318d3450c0c",
+              "imageDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5b6a7252-8fc4-434c-a215-407399571b99"
+            }
+          },
+          {
+            "__resolveType": "site/sections/Benefits.tsx",
+            "title": "VANTAGENS",
+            "subTitle": "Alavanque Seu Negócio com Begen: A Plataforma Definitiva de IA Gerativa",
+            "extraText": "Embora nossa solução técnica seja excelente, nosso sucesso depende da nossa capacidade de oferecer uma experiência excepcional ao cliente. Nossa equipe está dedicada a resolver cada desafio único do cliente e maximizar o valor que ele obtém de Begen",
+            "itemsList": [
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/9bdb6e4f-593f-4959-810d-f938d7f9d43c",
+                "text": "Aumentar produtividade e eficiência: automatizando tarefas repetitivas atualmente realizadas por funcionários, liberando-os para se concentrarem em iniciativas de maior valor."
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/e54a0c06-ecbf-4a6a-95a8-5362232155cf",
+                "text": "Empoderar criatividade e inovação: utilizando modelos LLM pré-treinados diversos, as empresas podem explorar uma ampla gama de possibilidades criativas para geração de conteúdo, design de produtos, campanhas de marketing e mais."
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/6abd2f6d-bcfa-4342-81c9-a885a6f781ee",
+                "text": "Melhorar a tomada de decisões baseada em dados: fornecendo insights acionáveis de análises de dados alimentadas por IA de maneira amigável, permitindo que as empresas façam decisões mais rápidas e confiantes baseadas em informações e tendências em tempo real."
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/d62dbe0a-4100-4c6c-a6d4-ef1ffd6ddffe",
+                "text": "Melhorar a escalabilidade: evitando grandes investimentos iniciais, a plataforma baseada na nuvem permite que os clientes testem soluções de IA Gerativa e cresçam conforme necessário sem limitações de infraestrutura."
+              },
+              {
+                "text": "Simplificar segurança e governança: oferecendo recursos robustos de segurança e controle de acesso granular para garantir a segurança e privacidade dos dados.",
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/57b9f038-a77f-4b9e-8a72-abd1d256033e"
+              },
+              {
+                "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/bbede213-49df-4413-aec1-58164f3151a5",
+                "text": "Simplificar a experiência do usuário: empoderando usuários não técnicos a aproveitar a IA Gerativa, com uma plataforma sem código, eliminando a necessidade de desenvolvimento e suporte de TI."
+              }
+            ]
+          },
+          {
+            "__resolveType": "site/sections/ContactUs.tsx",
+            "title": "Lorem Ipsum dolor sit amet",
+            "subtitle": "Contate-nos hoje e descubra como podemos ajudá-lo a entrar na era da IA Gerativa.",
+            "buttonText": "Fale com nossos especialistas"
+          },
+          {
+            "__resolveType": "site/sections/Footer.tsx",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/7abf3190-1e27-4013-b263-1224f1905d2f",
+            "alt": "Logo da página",
+            "text": "© 2024 Begen.ai. Todos os direitos reservados."
+          }
+        ],
+        "rule": {
+          "__resolveType": "website/matchers/always.ts"
         }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/AboutUs.tsx",
-      "title": "SOBRE NÓS",
-      "subTitle": "A Begen.ai",
-      "textContent": "<p><span style=\"color: #df1a00\">Nossa missão&nbsp;</span>é expandir o uso empresarial da IA Gerativa, fornecendo uma plataforma confiável, completa e escalável, enquanto organizamos o acesso em um ambiente seguro e controlado.</p><p>As empresas hoje estão presas no paradoxo da IA Gerativa. Enquanto as plataformas de código aberto oferecem flexibilidade, elas carecem de segurança e suporte. Soluções isoladas, por outro lado, restringem as empresas a um único LLM, limitando seu potencial criativo. Begen resolve isso fornecendo uma plataforma segura e abrangente com acesso a diversos modelos LLM pré-treinados.</p><p>Além disso, o acesso não controlado à IA Gerativa representa um risco significativo para as empresas. Pode levar ao uso indevido de dados, saídas tendenciosas e desperdício de recursos.</p><p><span style=\"color: #df1a00\">Nossa visão</span>&nbsp;é tornar-se a plataforma onipresente para a jornada da IA Gerativa no mundo empresarial, oferecendo uma plataforma segura e escalável que simplifica o acesso, fomenta a inovação e acelera a adoção da IA Gerativa por empresas de todos os tamanhos.</p>",
-      "images": {
-        "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5403f87f-b226-43a4-a183-8318d3450c0c",
-        "imageDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5b6a7252-8fc4-434c-a215-407399571b99"
       }
-    },
-    {
-      "__resolveType": "site/sections/Benefits.tsx",
-      "title": "VANTAGENS",
-      "subTitle": "Alavanque Seu Negócio com Begen: A Plataforma Definitiva de IA Gerativa",
-      "extraText": "Embora nossa solução técnica seja excelente, nosso sucesso depende da nossa capacidade de oferecer uma experiência excepcional ao cliente. Nossa equipe está dedicada a resolver cada desafio único do cliente e maximizar o valor que ele obtém de Begen",
-      "itemsList": [
-        {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/9bdb6e4f-593f-4959-810d-f938d7f9d43c",
-          "text": "Aumentar produtividade e eficiência: automatizando tarefas repetitivas atualmente realizadas por funcionários, liberando-os para se concentrarem em iniciativas de maior valor."
-        },
-        {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/e54a0c06-ecbf-4a6a-95a8-5362232155cf",
-          "text": "Empoderar criatividade e inovação: utilizando modelos LLM pré-treinados diversos, as empresas podem explorar uma ampla gama de possibilidades criativas para geração de conteúdo, design de produtos, campanhas de marketing e mais."
-        },
-        {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/6abd2f6d-bcfa-4342-81c9-a885a6f781ee",
-          "text": "Melhorar a tomada de decisões baseada em dados: fornecendo insights acionáveis de análises de dados alimentadas por IA de maneira amigável, permitindo que as empresas façam decisões mais rápidas e confiantes baseadas em informações e tendências em tempo real."
-        },
-        {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/d62dbe0a-4100-4c6c-a6d4-ef1ffd6ddffe",
-          "text": "Melhorar a escalabilidade: evitando grandes investimentos iniciais, a plataforma baseada na nuvem permite que os clientes testem soluções de IA Gerativa e cresçam conforme necessário sem limitações de infraestrutura."
-        },
-        {
-          "text": "Simplificar segurança e governança: oferecendo recursos robustos de segurança e controle de acesso granular para garantir a segurança e privacidade dos dados.",
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/57b9f038-a77f-4b9e-8a72-abd1d256033e"
-        },
-        {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/bbede213-49df-4413-aec1-58164f3151a5",
-          "text": "Simplificar a experiência do usuário: empoderando usuários não técnicos a aproveitar a IA Gerativa, com uma plataforma sem código, eliminando a necessidade de desenvolvimento e suporte de TI."
-        }
-      ]
-    },
-    {
-      "__resolveType": "site/sections/ContactUs.tsx",
-      "title": "Lorem Ipsum dolor sit amet",
-      "subtitle": "Contate-nos hoje e descubra como podemos ajudá-lo a entrar na era da IA Gerativa.",
-      "buttonText": "Fale com nossos especialistas"
-    },
-    {
-      "__resolveType": "site/sections/Footer.tsx",
-      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/7abf3190-1e27-4013-b263-1224f1905d2f",
-      "alt": "Logo da página",
-      "text": "© 2024 Begen.ai. Todos os direitos reservados."
-    }
-  ],
+    ]
+  },
   "__resolveType": "website/pages/Page.tsx"
 }
