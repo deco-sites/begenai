@@ -12,7 +12,11 @@ function Discover({ text, buttonText, videoSrc }: Props) {
             <div className="container px-4 flex flex-col items-center justify-center">
                 <span className="text-[32px] md:text-[64px] font-semibold mb-12 font-oxanium text-center max-w-[1440px]">{text}</span>
                 <span className="cursor-pointer bg-primary-content py-[14px] rounded-lg text-white text-base font-poppins w-full max-w-[220px] text-center">{buttonText}</span>
-                {videoSrc && <video class="w-full max-w-[906px] mt-8 md:mt-20 px-4 lg:px-0" controls ><source src={videoSrc} /></video>}
+                {videoSrc && <iframe
+                    allowFullScreen
+                    src={`${videoSrc}?autoplay=1&mute=1`}
+                >
+                </iframe>}
             </div>
         </div>
     )

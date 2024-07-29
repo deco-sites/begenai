@@ -48,18 +48,24 @@ export default function ChooseLang() {
         <Icon class="hidden md:block" id="ChevronDown" strokeWidth={2} size={12} />
       </button>
       {dropdownVisible.value && (
-        <div class="flex flex-col gap-2 absolute top-full left-0 bg-white w-24 p-5 mt-2 rounded-md drop-shadow-sm">
+        <div class="flex flex-col gap-2 absolute top-full left-0 bg-white w-24 p-4 mt-2 rounded-md drop-shadow-md">
           <button
-            class="border-none outline-none text-accent text-base font-medium bg-transparent cursor-pointer"
+            class="border-none outline-none text-accent text-base font-medium bg-transparent cursor-pointer flex items-center gap-3 pb-2"
             onClick={() => handleChangeLang("pt-BR")}
           >
-            pt-BR
+            <Icon class="hidden md:block" id="Pt" strokeWidth={1} size={24} />   <span class="font-poppins text-base text-[#1E1E1E]">PT</span>
           </button>
           <button
-            class="border-none outline-none text-accent text-base font-medium bg-transparent cursor-pointer"
+            class="outline-none text-accent text-base font-medium bg-transparent cursor-pointer flex items-center gap-3 border-t-[1px] border-b-[1px] border-solid border-[#D9D9D9] py-2"
             onClick={() => handleChangeLang("en")}
           >
-            EN
+            <Icon class="hidden md:block" id="En" strokeWidth={1} size={24} />  <span class="font-poppins text-base text-[#1E1E1E]">EN</span>
+          </button>
+          <button
+            class="border-none outline-none text-accent text-base font-medium bg-transparent cursor-pointer flex items-center gap-3 pb-2"
+            onClick={() => handleChangeLang("es")}
+          >
+            <Icon class="hidden md:block" id="Es" strokeWidth={1} size={24} />   <span class="font-poppins text-base text-[#1E1E1E]">ES</span>
           </button>
         </div>
       )}
