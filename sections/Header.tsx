@@ -40,15 +40,16 @@ function Header({ image, alt, width, height, menuLinks, disableInternationalizat
                         <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
                         <ul className="menu bg-white text-base-content min-h-full w-80 p-4">
                             {menuLinks?.map((menu) => (
-                                <li className={`${menu.highlight ? "bg-primary-content p-2 rounded-lg w-fit text-white" : ''} mb-3`}><a href={menu.link} className="p-0">{menu.text}</a></li>
+                                <li className={`${menu.highlight ? "bg-primary-content p-2 rounded-lg w-fit text-white" : ''} mb-3 cursor-pointer`}><a href={menu.link} className="p-0">{menu.text}</a></li>
                             ))}
+                            {disableInternationalization ? "" : <li className="flex items-start gap-2"><ChooseLang /></li>}
                         </ul>
                     </div>
                 </div>
                 <div className="hidden md:block">
                     <ul className="text-[#303030] tex-sm min-h-full flex items-center gap-[49px]">
                         {menuLinks?.map((menu) => (
-                            <li className={`${menu.highlight ? "bg-primary-content p-3 rounded-lg text-white" : ''}`}><a href={menu.link}>{menu.text}</a></li>
+                            <li className={`${menu.highlight ? "bg-primary-content p-3 rounded-lg text-white" : ''} cursor-pointer`}><a href={menu.link}>{menu.text}</a></li>
                         ))}
                         {disableInternationalization ? "" : <li className="flex items-center gap-2"><ChooseLang /></li>}
                     </ul>

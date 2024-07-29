@@ -58,13 +58,27 @@
           },
           {
             "__resolveType": "site/sections/AboutUs.tsx",
-            "title": "SOBRE NÓS",
-            "subTitle": "A Begen.ai",
-            "textContent": "<p><span style=\"color: #df1a00\">Nossa missão&nbsp;</span>é expandir o uso empresarial da IA Gerativa, fornecendo uma plataforma confiável, completa e escalável, enquanto organizamos o acesso em um ambiente seguro e controlado.</p><p>As empresas hoje estão presas no paradoxo da IA Gerativa. Enquanto as plataformas de código aberto oferecem flexibilidade, elas carecem de segurança e suporte. Soluções isoladas, por outro lado, restringem as empresas a um único LLM, limitando seu potencial criativo. Begen resolve isso fornecendo uma plataforma segura e abrangente com acesso a diversos modelos LLM pré-treinados.</p><p>Além disso, o acesso não controlado à IA Gerativa representa um risco significativo para as empresas. Pode levar ao uso indevido de dados, saídas tendenciosas e desperdício de recursos.</p><p><span style=\"color: #df1a00\">Nossa visão</span>&nbsp;é tornar-se a plataforma onipresente para a jornada da IA Gerativa no mundo empresarial, oferecendo uma plataforma segura e escalável que simplifica o acesso, fomenta a inovação e acelera a adoção da IA Gerativa por empresas de todos os tamanhos.</p>",
+            "title": "ABOUT US",
+            "subTitle": "The Begen.ai",
+            "textContent": "<p></p>",
             "images": {
               "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5403f87f-b226-43a4-a183-8318d3450c0c",
               "imageDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5b6a7252-8fc4-434c-a215-407399571b99"
-            }
+            },
+            "list": [
+              {
+                "title": "Our Mission",
+                "textContent": "To expand business use of Artificial intelligence.."
+              },
+              {
+                "title": "Our Vision",
+                "textContent": "To become the preferred platform for the Gen AI journey in the business world."
+              },
+              {
+                "textContent": "We help companies overcome AI adoption barriers by simplifying AI usage, offering model-agnostic solutions, providing pre-trained models, and ensuring flexibility and scalability. We reduce upfront investments and enhance security and governance, making it easier for companies to integrate AI confidently and comply with regulations.",
+                "title": "Our Value Proposition"
+              }
+            ]
           },
           {
             "__resolveType": "site/sections/Benefits.tsx",
@@ -100,21 +114,21 @@
           },
           {
             "__resolveType": "site/sections/ContactUs.tsx",
-            "title": "Lorem Ipsum dolor sit amet",
-            "subtitle": "Contate-nos hoje e descubra como podemos ajudá-lo a entrar na era da IA Gerativa.",
-            "buttonText": "Fale com nossos especialistas"
+            "title": "Be ahead of your time. Begen.",
+            "subtitle": "Begin your journey into the AI world. Let's talk!",
+            "buttonText": "Talk to our team"
           },
           {
             "__resolveType": "site/sections/Footer.tsx",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/7abf3190-1e27-4013-b263-1224f1905d2f",
             "alt": "Logo da página",
-            "text": "© 2024 Begen.ai. Todos os direitos reservados."
+            "text": "© 2024 Begen.ai. All rights reserved."
           }
         ],
         "rule": {
           "__resolveType": "website/matchers/cookie.ts",
           "name": "begen-lang",
-          "value": "EN"
+          "value": "en"
         }
       },
       {
@@ -177,7 +191,8 @@
             "images": {
               "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5403f87f-b226-43a4-a183-8318d3450c0c",
               "imageDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/5b6a7252-8fc4-434c-a215-407399571b99"
-            }
+            },
+            "bgEffect": true
           },
           {
             "__resolveType": "site/sections/Benefits.tsx",
