@@ -83,12 +83,12 @@
           {
             "__resolveType": "site/sections/Benefits.tsx",
             "title": "BENEFITS",
-            "subTitle": "Alavanque Seu Negócio com Begen: A Plataforma Definitiva de IA Gerativa",
-            "extraText": "Embora nossa solução técnica seja excelente, nosso sucesso depende da nossa capacidade de oferecer uma experiência excepcional ao cliente. Nossa equipe está dedicada a resolver cada desafio único do cliente e maximizar o valor que ele obtém de Begen",
+            "subTitle": "Ignite Your Business with Begen: The Ultimate Artificial Intelligence Platform",
+            "extraText": "Although our technical solution is great, our success depends on our ability to provide an exceptional customer experience. Our team is dedicated to solving each customer’s unique challenge and maximizing the value it gets from Begen.",
             "itemsList": [
               {
                 "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/9bdb6e4f-593f-4959-810d-f938d7f9d43c",
-                "text": "Aumentar produtividade e eficiência: automatizando tarefas repetitivas atualmente realizadas por funcionários, liberando-os para se concentrarem em iniciativas de maior valor."
+                "text": "Increase productivity and efficiency: automating repetitive tasks currently handled by employees, freeing them to focus on higher-value initiatives."
               },
               {
                 "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/e54a0c06-ecbf-4a6a-95a8-5362232155cf",
