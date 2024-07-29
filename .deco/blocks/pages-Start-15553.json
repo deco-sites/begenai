@@ -165,7 +165,8 @@
           {
             "__resolveType": "site/sections/Discover.tsx",
             "text": "A plataforma SaaS tudo-em-um que empodera empresas para utilizar totalmente o potencial da IA Gerativa.",
-            "buttonText": "Discover"
+            "buttonText": "Discover",
+            "videoSrc": "https://www.youtube.com/embed/UTzegE7cMag?si=pj6fniwo2_fSyq6q"
           },
           {
             "__resolveType": "site/sections/Companies.tsx",
