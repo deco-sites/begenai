@@ -112,31 +112,7 @@
           {
             "__resolveType": "site/sections/Header.tsx",
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/f38e89fa-d3eb-4e87-bdd4-a5d75ba41b8f",
-            "menuLinks": [
-              {
-                "0": "L",
-                "1": "o",
-                "2": "g",
-                "3": "i",
-                "4": "n",
-                "text": "Login"
-              },
-              {
-                "0": "C",
-                "1": "a",
-                "2": "d",
-                "3": "a",
-                "4": "s",
-                "5": "t",
-                "6": "r",
-                "7": "e",
-                "8": "-",
-                "9": "s",
-                "10": "e",
-                "text": "Cadastre-se",
-                "highlight": true
-              }
-            ]
+            "menuLinks": []
           },
           {
             "__resolveType": "site/sections/Discover.tsx",
