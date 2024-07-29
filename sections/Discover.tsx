@@ -15,6 +15,7 @@ function Discover({ text, buttonText, videoSrc }: Props) {
                 {videoSrc && <iframe
                     allowFullScreen
                     src={`${videoSrc}?autoplay=1&mute=1`}
+                    className="w-full h-[509px] max-w-[906px] py-5"
                 >
                 </iframe>}
             </div>
