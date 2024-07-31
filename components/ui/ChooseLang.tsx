@@ -53,19 +53,19 @@ export default function ChooseLang() {
             class="border-none outline-none text-accent text-base font-medium bg-transparent cursor-pointer flex items-center gap-3 pb-2"
             onClick={() => handleChangeLang("pt-BR")}
           >
-            <Icon class="hidden md:block" id="Pt" strokeWidth={1} size={24} />   <span class="font-poppins text-base text-[#1E1E1E]">PT</span>
+            <Icon class="hidden md:block" id="Pt" strokeWidth={1} size={24} />   <span class="font-montserrat text-base text-[#1E1E1E]">PT</span>
           </button>
           <button
             class="outline-none text-accent text-base font-medium bg-transparent cursor-pointer flex items-center gap-3 border-t-[1px] border-b-[1px] border-solid border-[#D9D9D9] py-2"
             onClick={() => handleChangeLang("en")}
           >
-            <Icon class="hidden md:block" id="En" strokeWidth={1} size={24} />  <span class="font-poppins text-base text-[#1E1E1E]">EN</span>
+            <Icon class="hidden md:block" id="En" strokeWidth={1} size={24} />  <span class="font-montserrat text-base text-[#1E1E1E]">EN</span>
           </button>
           <button
             class="border-none outline-none text-accent text-base font-medium bg-transparent cursor-pointer flex items-center gap-3 pb-2"
             onClick={() => handleChangeLang("es")}
           >
-            <Icon class="hidden md:block" id="Es" strokeWidth={1} size={24} />   <span class="font-poppins text-base text-[#1E1E1E]">ES</span>
+            <Icon class="hidden md:block" id="Es" strokeWidth={1} size={24} />   <span class="font-montserrat text-base text-[#1E1E1E]">ES</span>
           </button>
         </div>
       )}

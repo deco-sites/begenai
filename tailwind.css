@@ -47,4 +47,18 @@
     display: block;
     margin-right: 16px;
   }
+
+  .transformid {
+    transform: translate(-50%, -50%);
+  }
+
+  .benefitsStrong strong {
+    color: #ff472e;
+  }
+
+  @media screen and (min-width: 1310px) {
+    .unsetWidth {
+      max-width: unset;
+    }
+  }
 }

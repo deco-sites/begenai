@@ -30,22 +30,15 @@
     "fonts": [
       {
         "variations": [],
-        "family": "Inter"
-      },
-      {
-        "variations": [],
-        "family": "Poppins"
-      },
-      {
-        "variations": [],
-        "family": "Oxanium"
+        "family": "Montserrat"
       }
     ]
   },
   "mode": "light",
   "complementaryColors": {
-    "base-200": "#757575",
+    "base-200": "#525E60",
     "primary-content": "#F74A33",
-    "secondary-content": "#DF1A00"
+    "secondary-content": "#DF1A00",
+    "base-content": "#FF472E"
   }
 }

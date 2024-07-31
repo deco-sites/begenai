@@ -8,8 +8,7 @@ export default {
     container: { center: true },
     extend: {
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
-        oxanium: ["Oxanium", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
       },
     },
   },
