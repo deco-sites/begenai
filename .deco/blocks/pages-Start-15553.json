@@ -138,7 +138,7 @@
           },
           {
             "__resolveType": "site/sections/AboutUs.tsx",
-            "title": "A begin.<strong>ai</strong>",
+            "title": "<p><span style=\"font-size: 40pt\">A begin.</span><strong><span style=\"color: #f74a33; font-size: 40pt\">ai</span></strong></p>",
             "images": {
               "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/055e22a5-d88d-47a7-aacd-f90142977fb6",
               "imageDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/80be7552-f112-43c3-a4fa-23eed0ff8903"
@@ -169,8 +169,8 @@
           {
             "__resolveType": "site/sections/Benefits.tsx",
             "title": "GRANDES EMPRESAS CONFIAM EM NÓS",
-            "subTitle": "Alavanque Seu Negócio com Begen: <br><strong>A Plataforma Definitiva de IA Gerativa</strong>",
-            "extraText": "Embora nossa solução técnica seja excelente, nosso sucesso depende da nossa capacidade de oferecer uma experiência excepcional ao cliente. Nossa equipe está dedicada a resolver cada desafio único do cliente e maximizar o valor que ele obtém de Begen",
+            "subTitle": "<p>Alavanque Seu Negócio com Begen: <br><strong>A Plataforma Definitiva de IA Gerativa</strong></p>",
+            "extraText": "<p>Embora nossa solução técnica seja excelente, nosso sucesso depende da nossa capacidade de oferecer uma experiência excepcional ao cliente. Nossa equipe está dedicada a resolver cada desafio único do cliente e maximizar o valor que ele obtém de Begen</p>",
             "itemsList": [
               {
                 "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/11948/ad6ff1c8-b4eb-45d6-b66e-e581d3645c2b",

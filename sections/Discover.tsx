@@ -13,6 +13,7 @@ interface MobileProps {
 */
     text?: string;
     image?: ImageWidget;
+    imageHeight?: number;
 }
 
 interface DesktopProps {
@@ -21,6 +22,7 @@ interface DesktopProps {
 */
     text?: string;
     image?: ImageWidget;
+    imageHeight?: number;
 }
 
 
@@ -31,13 +33,13 @@ function Discover({ desktop, mobile, buttonText, buttonLink }: Props) {
                 <><Image
                     src={desktop?.image || ""}
                     alt="Banner discover"
-                    height={545}
+                    height={desktop.imageHeight || 545}
                     width={1920}
                     className="w-full hidden lg:block" />
                     <Image
                         src={mobile?.image || ""}
                         alt="Banner discover"
-                        height={390}
+                        height={mobile?.imageHeight || 390}
                         width={1920}
                         className="w-full min-h-[390px] lg:hidden" /></>
             )}
