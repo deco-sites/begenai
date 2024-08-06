@@ -27,7 +27,7 @@ interface List {
      * @format rich-text
      */
     title?: string;
-    disableMarker?: string;
+    disableMarker?: boolean;
     /**
      * @format rich-text
      */
